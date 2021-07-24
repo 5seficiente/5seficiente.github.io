@@ -430,6 +430,7 @@ body{
 }
 
 .fazer{
+    position: relative;
     text-align: center;
     margin-left: 0.5em;
     background-color: #eab7d1;
@@ -448,12 +449,15 @@ body{
 }
 
 .fazer img{
-    margin-top: 4.5em;
+    position: absolute;
+    top: 72%;
+    right: 2em;
     width: 60px;
     height: 60px;
 }
 
 .decidir{
+    position: relative;
     text-align: center;
     margin-left: 0.5em;
     background-color: #d5a3b2;
@@ -472,7 +476,9 @@ body{
 }
 
 .decidir img{
-    margin-top: 3em;
+    position: absolute;
+    top: 72%;
+    right: 2em;
     width: 60px;
     height: 60px;
 }
@@ -483,6 +489,7 @@ body{
 }
 
 .delegar{
+    position: relative;
     margin-left: 0.5em;
     background-color: #936c91;
     border-radius: 10px;
@@ -502,13 +509,15 @@ body{
 }
 
 .delegar img{
-    margin-top: 4.5em;
-    margin-bottom: 1em;
+    position: absolute;
+    top: 72%;
+    right: 2em;
     width: 60px;
     height: 60px;
 }
 
 .deletar{
+    position: relative;
     margin-left: 0.5em;
     background-color: #7f677b;
     border-radius: 10px;
@@ -529,7 +538,9 @@ body{
 }
 
 .deletar img{
-    margin-top: 6em;
+    position: absolute;
+    top: 72%;
+    right: 2em;
     width: 60px;
     height: 60px;
 }
